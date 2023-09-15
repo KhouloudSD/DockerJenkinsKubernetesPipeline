@@ -15,10 +15,12 @@ import java.io.Serializable;
 @Setter
 public class Form implements Serializable {
     @Id
+
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(nullable = false, updatable = false)
+    @Column(nullable = false)
     private long id;
     private String email;
+
     private String username;
 
     public Form() {}
