@@ -1,9 +1,12 @@
-package khouloud.intern.internV1;
+package khouloud.intern.internV1.Repository;
 
+import khouloud.intern.internV1.Models.Form;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
+
+
 
 @Repository
 public interface FormRepository extends JpaRepository<Form, Long> {

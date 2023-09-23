@@ -1,14 +1,16 @@
-package khouloud.intern.internV1;
+package khouloud.intern.internV1.Models;
 
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import javax.annotation.processing.Generated;
 import java.io.Serializable;
 
 @Data
 @Entity
+@EntityScan
 @Table(name ="T_Form" , uniqueConstraints = {@UniqueConstraint(columnNames = {"email"})})
 @EqualsAndHashCode(callSuper = false)
 @Getter
