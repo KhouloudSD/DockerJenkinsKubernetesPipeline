@@ -1,7 +1,8 @@
-package khouloud.intern.internV1;
+package khouloud.intern.internV1.Controller;
 
 
-import lombok.NoArgsConstructor;
+import khouloud.intern.internV1.Models.Form;
+import khouloud.intern.internV1.Service.FormService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
