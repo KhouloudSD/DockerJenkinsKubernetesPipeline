@@ -1,7 +1,5 @@
 # Use an official OpenJDK runtime as the base image
 FROM openjdk:17
-
-# Set the workng directory in the container
 EXPOSE 8081
 
 # Copy the compiled JAR file into the container at the specified location
