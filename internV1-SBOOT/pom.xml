@@ -21,10 +21,7 @@
 	</properties>
 
 
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter</artifactId>
-	</dependency>
+
 
 	<dependencies>
 
@@ -74,10 +71,7 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-			<dependency>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-			</dependency>
+
 
 
 		<dependency>
@@ -93,10 +87,8 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.19.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-		</dependency>
+
+		
 
 
 	</dependencies>
